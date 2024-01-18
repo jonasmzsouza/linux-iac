@@ -24,7 +24,7 @@
 # Variables - Directories
 TMPDB=/var/www/backup
 SHARED=/media/backupfolder
-DIR="$SHARED"/mkt_sites
+DIR="$SHARED"/custom_folder
 
 echo "Create the directory '$TMPDB' if it doesn't exist, otherwise clear the directory '$TMPDB'..."
 # -d = diretorio, -f = arquivo
