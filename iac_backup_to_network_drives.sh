@@ -35,7 +35,7 @@ rm -f "$TMPDB"/*
 fi
 
 echo "Creating a copy of the database in the '$TMPDB' directory..."
-/usr/bin/mysqldump -u username -p 'password' blog > "$TMPDB"/Dump_MySQL_sitenameDB-`date +%Y%m%d%H%M%S`.sql
+/usr/bin/mysqldump -u username -p 'password' dbname > "$TMPDB"/Dump_MySQL_sitenameDB-`date +%Y%m%d%H%M%S`.sql
 
 echo "Creating the '$SHARED' directory if it doesn't exist"
 if [ ! -d "$SHARED" ] ; then
