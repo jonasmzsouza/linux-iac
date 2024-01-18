@@ -44,6 +44,7 @@ Technologies and tools that were used in the development of the project:
 
 - [Creating User Structure, Directories and Permissions](https://github.com/jonasmzsouza/linux-iac/blob/main/iac_users_directories_permissions.sh).
 - [Provisioning a Web Server (Apache)](https://github.com/jonasmzsouza/linux-iac/blob/main/iac_web_server.sh)
+- [Map network drives, Mount shared folder and Backup files](https://github.com/jonasmzsouza/linux-iac/blob/main/iac_backup_to_network_drives.sh)
 
 ---
 
